@@ -11,8 +11,6 @@ rl.question('Enter your name: ',(name) => {
     rl.question('Enter your weight (in kg): ', (weight) => {
         rl.question('Enter your (in m): ', (height) => {
 
-            weight = parseFloat(weight);
-            height = parseFloat(height);
 
             //calculate BMI
             let bmi = weight / (height * height);
